@@ -3,6 +3,7 @@ module "cart" {
 
   ENV                   = var.ENV
   COMPONENT             = var.COMPONENT
+  APP_PORT              = var.APP_PORT
   APP_VERSION           = var.APP_VERSION
   SPOT_INSTANCE_TYPE    = var.SPOT_INSTANCE_TYPE
   SPOT_INSTANCE_COUNT   = var.SPOT_INSTANCE_COUNT

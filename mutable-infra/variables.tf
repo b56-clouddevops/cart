@@ -1,5 +1,6 @@
 variable "ENV" {}
 variable "APP_VERSION" {}
+variable "APP_PORT" {}
 
 variable "COMPONENT" {}
 variable "SPOT_INSTANCE_TYPE" {}
