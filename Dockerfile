@@ -5,4 +5,6 @@ WORKDIR     /home/roboshop
 COPY        node_modules/   node_modules/
 COPY        server.js .
 COPY        package.json .
+# Ensure you Jenkins job downloads the  global-bundle.pe before docker build command
+COPY        global-bundle.pem /home/roboshop/global-bundle.pem
 ENTRYPOINT [ "node" , "server.js"]
